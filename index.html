@@ -6,24 +6,40 @@
   <title>John Clema</title>
 
   <!-- CSS  -->
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="node_modules/materialize-css/bin/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="node_modules/font-awesome/css/font-awesome.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">John Clema</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">John Clema</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="http://www.github.com/JohnClema"><i class="fa fa-github fa-2x"></i></a></li>
+          <li><a href="http://www.twitter.com/JohnClema"><i class="fa fa-twitter fa-2x"></i></a></li>
+          <li><a href="https://au.linkedin.com/in/johnclema"><i class="fa fa-linkedin fa-2x"></i></a></li>
+          <li><a href="http://stackoverflow.com/users/1705479/john-eis-clema"><i class="fa fa-stack-overflow fa-2x"></i></a></li>
+          <li><a href="#"><i class="fa fa-rss fa-2x"></i></a></li>
+          <li><a href="mailto:john.clema@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
+        </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    </div>
-  </nav>
-
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Work Experience</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="http://www.github.com/JohnClema"><i class="fa fa-github fa-2x"></i></a></li>
+          <li><a href="http://www.twitter.com/JohnClema"><i class="fa fa-twitter fa-2x"></i></a></li>
+          <li><a href="https://au.linkedin.com/in/johnclema"><i class="fa fa-linkedin fa-2x"></i></a></li>
+          <li><a href="http://stackoverflow.com/users/1705479/john-eis-clema"><i class="fa fa-stack-overflow fa-2x"></i></a></li>
+          <li><a href="#"><i class="fa fa-rss fa-2x"></i></a></li>
+          <li><a href="mailto:john.clema@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      </div>
+    </nav>
+  </div>
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
@@ -39,14 +55,30 @@
 
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
+  <section class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="fa fa-book fa-lg brown-text"></i></h2>
+            <h5 class="center">Education</h5>
+            <p class="light center">
+              I studied at the <a href="#">University of Western Australia</a> completing a Bachelor of Computer Science, majoring in web technologies
+              and a Bachelor of Science majoring in Genetics and Pharmacology
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <div class="container">
+
+ <!--  <div class="container">
     <div class="section">
 
-      <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m6">
           <div class="icon-block">
@@ -65,19 +97,10 @@
             <p class="light"></p>
           </div>
         </div>
-
-        <!-- <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
-            <h5 class="center">Idea va</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div> -->
       </div>
 
     </div>
-  </div>
+  </div> -->
 
 
   <div class="parallax-container valign-wrapper">
@@ -87,7 +110,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
@@ -113,11 +136,11 @@
  -->        </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer teal">
-    <div class="container">
+    <div class="container center">
       <div class="row">
         <!-- <div class="col l6 s12">
           <h5 class="white-text">Company Bio</h5>
@@ -126,7 +149,7 @@
 
         </div> -->
         <div class="col l6 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text ">Settings</h5>
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
             <li><a class="white-text" href="#!">Link 2</a></li>
