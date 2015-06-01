@@ -15,8 +15,28 @@ p {
   line-height: 2rem;
 }
 
-.fa {
+li a i {
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
   color: #444;
+}
+
+li a i:hover {
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  color: #26a69a;
+}
+
+nav ul li:hover, nav ul li.active {
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  transition: none;
+  background-color: #fff;
 }
 
 .button-collapse {
