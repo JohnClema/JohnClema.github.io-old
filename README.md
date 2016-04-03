@@ -1,7 +1,8 @@
 # JohnClema.github.io
-My online blog run with Jekyll
+My static online blog run with Jekyll
 
 ## How to run
+
 1. Install ruby
 2. Install rubygems 
 3. Install jekyll installed by running `gem install jekyll`
@@ -12,9 +13,10 @@ My online blog run with Jekyll
 ## How to Contribute
 
 Find any typos? Think something is out of date? Contributions are welcome!
-
-Fork this repository. Clone this repository to make changes.
-
+Fork this repository. 
+Clone this repository to make changes.
+```sh
 $ git clone {YOUR_REPOSITORY_CLONE_URL}
-$ cd Udacity_iOS_P1
+$ cd JohnClema.github.io
+```
 Once you've pushed changes to your local repository, you can issue a pull request by clicking on the green pull request icon.
