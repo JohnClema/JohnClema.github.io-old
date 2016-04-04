@@ -12,7 +12,9 @@ description: "Hey, thanks for visiting, I am a software developer passionate abo
 all things travel and coding. I'm particularly interested in iOS development
 and ruby at the moment. Feel free to reach out if you have any queries"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://johnclema.github.io" # the base hostname & protocol for your site
+url: "johnclema.github.io" # the base hostname & protocol for your site
+baseurl: ""
+permalink: /:title
 twitter_username: JohnClema
 github_username:  JohnClema
 
