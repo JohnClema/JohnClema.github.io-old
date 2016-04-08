@@ -5,10 +5,11 @@
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
-      <a href="/resume.html" class="menu-icon">
-
-      </a>
-
+      {% include icon-github.html %}
+      {% include icon-linkedin.html %}
+      {% include icon-twitter.html %}
+      {% include icon-stackoverflow.html %}
+      {% include icon-google-plus.html %}
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.title %}

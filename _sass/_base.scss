@@ -104,7 +104,6 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
     }
 }
 
@@ -190,8 +189,7 @@ pre {
     }
 }
 
-
-
+.path { transition: fill .4s ease; )
 /**
  * Icons
  */
@@ -199,12 +197,19 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 24px;
+        height: 24px;
         vertical-align: middle;
+        margin-left: 6px;
+        margin-right: 6px;
 
         path {
             fill: $grey-color;
         }
+    }
+    > svg:hover {
+      path {
+        fill: $light-olive;
+      }
     }
 }
