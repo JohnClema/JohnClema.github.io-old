@@ -20,6 +20,10 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+p {
+  letter-spacing: 0.03125em
+}
 /**
  * Basic styling
  */
@@ -185,8 +189,7 @@ pre {
           width: 24px;
           height: 24px;
           vertical-align: middle;
-          margin-left: 6px;
-          margin-right: 6px;
+          margin: 12px 6px 24px 6px;
           path {
               fill: $grey-color;
           }
